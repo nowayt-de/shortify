@@ -20,7 +20,7 @@ const redirect = async (req, res) => {
       throw new Error()
     }
   } catch (error) {
-    res.status(404).send('Dieser Link existiert nicht')
+    res.status(404).send('Dieser Link existiert nicht mehr')
   }
 }
 
